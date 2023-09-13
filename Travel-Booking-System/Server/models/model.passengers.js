@@ -2,23 +2,23 @@ import mongoose from "mongoose";
 
 const passengerSchema = new mongoose.Schema(
   {
-    passengerName: {
+    name: {
       type: String,
       required: true,
     },
-    passengerAge: {
+    age: {
       type: Number,
       required: true,
     },
-    entryPlace: {
+    entry: {
       type: String,
       default: "Trivandrum",
     },
-    exitPlace: {
+    exit: {
       type: String,
       required: true,
     },
-    ticketPrice: {
+    price: {
       type: Number,
       required: true,
     },
