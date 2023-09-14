@@ -1,0 +1,24 @@
+*{
+  font-family: sans-serif;
+}
+.container {
+  width: 100%;
+}
+.heading {
+  color: red;
+  text-align: center;
+}
+.steve-img {
+  margin: auto;
+  width: 50%;
+}
+.steve-img>img {
+  border-radius: 10%;
+}
+.about {
+  padding: 1% 5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: rgb(36, 36, 31);
+  color: white;
+  
+}
